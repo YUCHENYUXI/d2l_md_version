@@ -5,6 +5,6 @@ Get-ChildItem -Path . -Recurse -Filter *.ipynb | Remove-Item
 ```
 
 #### linux
-``bash
+```bash
 find . -type f -name "*.ipynb" -delete
 ```
